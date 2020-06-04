@@ -43,3 +43,6 @@ git remote add origin LINK --> liga o repositório atual local a um repositório
 git push -u origin master --> envia a branch master para o repositório online (necessário
 apenas no primeiro envio)
 git push --> enviar o repositório atual local para o repositório online
+
+1) Git serve para ignorar pastas e arquivos a serem ignorados pelo github
+2) Gitlab e azure
