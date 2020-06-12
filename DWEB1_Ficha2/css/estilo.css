@@ -1,0 +1,33 @@
+body {
+    background-color: lightgrey;
+    padding: 20px;
+    }
+    h1{
+    text-align: center;
+    }
+    #alinhaEsquerda {
+    text-align: left;
+    }
+    #alinhaDireita {
+    text-align: right;
+    }
+    h1, h2, h3, p{
+        text-align: center;
+        }
+        
+        .vermelho{
+            color: red;
+            background-color: lightseagreen;
+            border:2px solid black;
+
+        }
+
+        .azul{
+            color: blue;
+
+        }
+
+        .verde{
+            color: green;
+
+        }
