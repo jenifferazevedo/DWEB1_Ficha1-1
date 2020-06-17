@@ -3,7 +3,31 @@ body {
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: bisque;
+}
+nav p {
+    margin: 0;
+    text-align: center;
+}
 
+nav p a {
+    font-size: 40px;
+    color: rgb(207, 207, 207);
+}
+nav p a:hover {
+    color: rgb(177, 255, 249);
+}
+
+main {
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
 .aocentro{
     text-align: center;
 }
@@ -15,7 +39,10 @@ body {
 footer{
     background-color: grey;
     padding: 5px;
-    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav{
@@ -40,6 +67,9 @@ table{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+table ul {
+    font-family: 'Staatliches', cursive;
 }
 
 h3:hover {
